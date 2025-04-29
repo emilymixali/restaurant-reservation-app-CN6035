@@ -12,7 +12,7 @@ To design and implement a distributed system that simulates a real-world restaur
 
 ---
 
-## ⚙ Technologies Used
+##  Technologies Used
 - **Frontend**: React Native (Expo)
 - **Backend**: Node.js + Express
 - **Database**: MariaDB
@@ -126,36 +126,52 @@ npx expo start
 ##  Screenshots
 
 ###  Login Screen
+![Login Screen](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2017.53.35.png)
+
 User enters email and password to authenticate. Error messages are shown for invalid credentials. 
 
 ###  Signup Screen
+![Signup Screen](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2017.53.39.png)
+
 User registers with full name, email, phone, birth date, and password. Password validation requires at least one uppercase letter and one number.
 
 ###  Restaurants List
+![Restaurants List](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2017.54.09.png)
+
 Displays all available restaurants with cards showing name, location, phone, cuisine type, and opening hours.
 
 ###  Booking Screen
+![Booking Screen](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2017.54.15.png)
+
 Reservation form where user selects the restaurant, date (using date picker), time (using modal with available slots), number of people, and optional comments.
 
 ###  Time Picker (Booking)
+![Time Picker Booking](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.08.48.png)
+
 Only available times are shown based on the restaurant’s opening/closing times. Past times and late-night bookings are excluded.
 
 ###  Booking Confirmation
+![Booking Confirmation](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.27.32.png)
+
 Displays a success message after a booking is submitted. Confirms the restaurant name, date, time, number of people, and any comments.
 
 ###  Reservations History
+![Reservations History](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.09.28.png)
+
 Lists the user's current and past reservations. Future reservations include options to edit or delete. Past reservations are read-only.
 
 ###  Edit Reservation
+![Edit Reservation](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.27.41.png)
+
 Form allowing user to update an existing reservation (date, time, people count, comments). Includes availability check for new times.
 
-###  Time Picker (Edit)
-Available times are recalculated when editing an existing booking, considering new constraints.
-
 ###  Update Confirmation
+![Update Confirmation](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.28.03.png)
+
 After editing a reservation, a success message is displayed confirming the update.
 
 ###  Profile Screen
+![Profile Screen](assets/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202025-04-25%20at%2018.09.43.png)
 Profile page showing a welcome message with the user's name and a logout button to safely exit the session.
 
 

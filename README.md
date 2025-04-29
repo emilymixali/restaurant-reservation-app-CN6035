@@ -7,7 +7,7 @@
 ##  Overview
 This project is a complete mobile application that allows users to browse restaurants, make table reservations, and manage their bookings through a user-friendly interface. The system is built as a distributed architecture using **React Native (frontend)**, **Node.js/Express (backend)**, and **MariaDB (database)**.
 
-## ⚖ Goal
+##  Goal
 To design and implement a distributed system that simulates a real-world restaurant reservation platform, integrating authentication, data management, and a responsive mobile UI.
 
 ---
